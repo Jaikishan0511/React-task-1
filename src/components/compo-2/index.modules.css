@@ -1,0 +1,11 @@
+.header-content {
+  color: #214352;
+}
+.component-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50px;
+  background-color: whitesmoke;
+  align-items: center;
+}
