@@ -6,10 +6,13 @@ import ComponentNine from "../compo-9";
 import ComponentTen from "../compo-10";
 import Searchbar from "../sticky-searchbar";
 import ComponentThree from "../compo-3";
+import Sidebar from "../side-bar-compo-1";
+
 function ContentWrapper() {
   return (
-    <div>
+    <div className="pagecontainer">
       <ComponentOne />
+      <Sidebar />
       <ComponentTwo />
       <Searchbar />
       <ComponentThree />

@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.modules.css";
+import Sidebar from "../side-bar-compo-1";
 function ComponentOne() {
   return (
     <div className="component-1">
@@ -16,8 +17,6 @@ function ComponentOne() {
           className="raiselogo"
           alt="logo"
         />
-
-        <button className="btn">&#9776;</button>
       </div>
     </div>
   );

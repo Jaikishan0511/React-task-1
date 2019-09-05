@@ -23,14 +23,19 @@ class Sidebar extends React.Component {
           id="mySidenav"
           className={this.state.isClicked ? "sidenav-1" : "sidenav"}
         >
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#">Contact</a>
+          <a href="/">About</a>
+          <a href="/">Services</a>
+          <a href="/">Clients</a>
+          <a href="/">Contact</a>
         </div>
-        <h2>Animated Sidenav Example</h2>
-        <p>Click on the element below to open the side navigation menu.</p>
-        <button onClick={this.onSubmit}>afdsafas</button>
+        <div
+          className="btncontainer"
+          id={this.state.isClicked ? "main1" : "main"}
+        >
+          <button className="btn" onClick={this.onSubmit}>
+            &#9776;
+          </button>
+        </div>
       </div>
     );
   }

@@ -3,12 +3,13 @@
   position: sticky;
   top: 0;
   display: flex;
-  width: 100%;
+  width: 80%;
   height: auto;
   background-color: #ffffff;
   justify-content: space-between;
 }
 .header-container-1 {
+  width: 70%;
   align-self: flex-start;
   margin: 10px;
 }
@@ -19,15 +20,4 @@
 .raiselogo {
   height: 30px;
   width: 30px;
-}
-.btn {
-  border: none;
-  padding: 0;
-  background: transparent;
-  height: 30px;
-  width: 30px;
-  position: relative;
-  top: -10px;
-  right: -5px;
-  bottom: -35px;
 }
