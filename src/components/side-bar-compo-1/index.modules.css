@@ -3,13 +3,13 @@ body {
 }
 .btncontainer {
   position: fixed;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   width: 20%;
-  height: 50px;
+  height: auto;
   overflow: hidden;
   background: white;
-  margin: 0;
+  margin: 0 0 5px 0;
 }
 .btn {
   margin: 10px;
