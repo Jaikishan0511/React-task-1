@@ -2,7 +2,7 @@ import React from "react";
 import "./index.modules.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import ContentWrapper from "./component-wrapper";
-import Sidebar from "./side-bar-compo-1";
+import Slidercopy from "./slider-copy";
 import {} from "./";
 
 function Page() {
@@ -12,7 +12,7 @@ function Page() {
         <div>
           <Switch>
             <Route exact path="/" component={ContentWrapper} />
-            <Route path="/menu" component={Sidebar} />
+            <Route path="/menu" component={Slidercopy} />
           </Switch>
         </div>
       </div>

@@ -13,7 +13,8 @@
 }
 .search-bar {
   margin: 10px;
-  width: auto;
+  width: 80%;
+  height: 40px;
   border-radius: 50px;
   border: 1px solid rgb(13, 186, 252);
   padding: 0px 0px 0px 5px;
@@ -26,9 +27,11 @@
   border-radius: 50px;
   color: white;
   font-size: 18px;
+  width: 15%;
+  height: 40px;
 }
 .compo-2-input {
   border: none;
-  width: auto;
+  width: 85%;
   outline: white;
 }

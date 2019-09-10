@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.modules.css";
-function Slider() {
+function Slidercopy() {
   return (
-    <div className="slider-container">
+    <div>
       <div className="slider-info">
         <h2 className="slider-header-info">Best Sellers</h2>
         <div className="slider-content-info">
@@ -42,4 +42,4 @@ function Slider() {
     </div>
   );
 }
-export default Slider;
+export default Slidercopy;
