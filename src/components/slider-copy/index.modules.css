@@ -1,0 +1,62 @@
+.slider-container {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.image-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin: 0px 0 10px 0;
+  padding: 0px;
+  box-shadow: 0 2px 6px 0 #e0e2e3;
+}
+.card {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+.slider-info {
+  display: flex;
+  flex-direction: row;
+  color: rgb(33, 67, 82);
+}
+.slider-header-info {
+  margin-bottom: 0px;
+  width: 70%;
+  padding-left: 10px;
+  font-size: 24px;
+  font-family: "ProximaNova-Bold", Helvetica, Arial, sans-serif;
+}
+.slider-content-info {
+  width: 30%;
+  padding-left: 0px;
+}
+a {
+  padding: 18px 8px 0px 22px;
+  text-decoration: none;
+  font-family: "ProximaNova-Bold", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #0dbafc;
+}
+.slide-title {
+  font-family: "ProximaNova-Regular", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #214352;
+  margin: 10px 0px 5px 0px;
+}
+.slide-content-offer {
+  font-family: "ProximaNova-Bold", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 12px;
+  color: #0dbafc;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}

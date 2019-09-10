@@ -1,0 +1,32 @@
+.offercard {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: sans-serif;
+  padding: 10px 0px 10px 0px;
+}
+.content-header {
+  color: #214352;
+}
+.raiselogo {
+  height: 30px;
+  width: 30px;
+}
+.card-para {
+  padding: 5px;
+  text-align: center;
+}
+.btn-container {
+  margin: 5px;
+}
+.btndecoration {
+  font-size: 15px;
+  color: white;
+  padding: 10px 40px 10px 40px;
+  border: 1px solid rgb(13, 186, 252);
+  background: rgb(13, 186, 252);
+  border-radius: 25px;
+}

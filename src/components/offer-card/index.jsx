@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.modules.css";
-function ComponentNine() {
+function OfferCard() {
   return (
-    <div className="component-9">
+    <div className="offercard">
       <div>
         <img
           src={process.env.PUBLIC_URL + "/raiselogo.png"}
@@ -11,18 +11,20 @@ function ComponentNine() {
         />
       </div>
       <div>
-        <h3>Plan Your Next Vacation</h3>
+        <h3 className="content-header">Plan Your Next Vacation</h3>
       </div>
       <div>
-        <div className="paracompo">
+        <div className="card-para">
           Need Some Travel inspiration? Check out savings on Hotel.com AirBnb
           and SouthWest Airlines gift cards From Raise.
         </div>
       </div>
-      <div>
-        <button type="submit">Take a trip</button>
+      <div className="btn-container">
+        <button type="submit" className="btndecoration">
+          TAKE A TRIP
+        </button>
       </div>
     </div>
   );
 }
-export default ComponentNine;
+export default OfferCard;
