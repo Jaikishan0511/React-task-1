@@ -1,0 +1,46 @@
+.modulecontainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  padding: 0px 0px 20px 0px;
+  background: #355a6b;
+}
+.content {
+  padding: 0;
+  text-align: center;
+  color: white;
+  line-height: 1.21;
+}
+.para-content {
+  font-size: 20px;
+}
+.join-container {
+  display: flex;
+  width: 70%;
+  height: 40px;
+  border: 1px solid rgb(13, 186, 252);
+  border-radius: 50px;
+  align-self: center;
+  padding: 0;
+  background: white;
+}
+.input {
+  margin: 10px 0 10px 10px;
+  width: 80%;
+  border: 0;
+  padding: 0;
+  outline-color: rgb(13, 186, 252);
+  outline: 0;
+}
+.button {
+  border-radius: 50px;
+  border: 1px solid rgb(13, 186, 252);
+  font-size: 14px;
+  text-align: center;
+  background: rgb(13, 186, 252);
+  outline: 0;
+  margin: 0;
+  width: 20%;
+}

@@ -1,33 +1,25 @@
-.component-1 {
+.menubar {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   display: flex;
-  width: 100%;
+  overflow: hidden;
+  width: 80%;
   height: auto;
   background-color: #ffffff;
   justify-content: space-between;
+  margin: 0;
 }
 .header-container-1 {
+  width: 70%;
   align-self: flex-start;
-  margin: 10px;
+  padding: 10px;
 }
 .header-container-2 {
-  margin: 10px;
+  padding: 10px;
   align-self: flex-end;
 }
 .raiselogo {
   height: 30px;
   width: 30px;
-}
-.btn {
-  border: none;
-  padding: 0;
-  background: transparent;
-  height: 30px;
-  width: 30px;
-  position: relative;
-  top: -10px;
-  right: -5px;
-  bottom: -35px;
 }

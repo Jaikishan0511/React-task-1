@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.modules.css";
-function ComponentOne() {
+function Menubar() {
   return (
-    <div className="component-1">
+    <div className="menubar">
       <div className="header-container-1">
         <img
           src={process.env.PUBLIC_URL + "/raiselogo.png"}
@@ -16,10 +16,8 @@ function ComponentOne() {
           className="raiselogo"
           alt="logo"
         />
-
-        <button className="btn">&#9776;</button>
       </div>
     </div>
   );
 }
-export default ComponentOne;
+export default Menubar;

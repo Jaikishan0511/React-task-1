@@ -1,0 +1,42 @@
+.primaryfooter {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  padding: 0;
+  background: #214352;
+  color: white;
+}
+.primaryfooter-content {
+  padding: 10px 10px 0px 10px;
+  text-align: center;
+}
+.content-bold {
+  font-family: "ProximaNova-Bold", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 0;
+  color: white;
+}
+.para {
+  font-family: "ProximaNova-Regular", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  margin-top: 5px;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+.imagelogo {
+  border-radius: 50px;
+  height: 30px;
+  width: 80px;
+  margin: 0px 10px 0px 0px;
+}
+.giantpic-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 0 0;
+}
+.giant-pic {
+  height: 150px;
+  width: 150px;
+}

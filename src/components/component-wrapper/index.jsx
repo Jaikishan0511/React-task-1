@@ -1,23 +1,31 @@
 import React from "react";
 import "./index.modules.css";
-import ComponentOne from "../compo-1/";
-import ComponentTwo from "../compo-2";
-import ComponentNine from "../compo-9";
-import ComponentTen from "../compo-10";
+import Menubar from "../menu-bar";
+import HeaderContent from "../header-content";
+import OfferCard from "../offer-card";
 import Searchbar from "../sticky-searchbar";
-import ComponentThree from "../compo-3";
+import Slider from "../slider";
+import Sidebar from "../side-bar-compo-1";
+import Modulecontainer from "../footer-module-container";
+import PrimaryFooter from "../primary-footer";
+import Footerbutton from "../footer-button-box";
+
 function ContentWrapper() {
   return (
-    <div>
-      <ComponentOne />
-      <ComponentTwo />
+    <div className="pagecontainer">
+      <Menubar />
+      <Sidebar />
+      <HeaderContent />
       <Searchbar />
-      <ComponentThree />
-      <ComponentThree />
-      <ComponentThree />
-      <ComponentThree />
-      <ComponentNine />
-      <ComponentTen />
+      <Slider />
+      <Slider />
+      <Slider />
+      <Slider />
+      <OfferCard />
+      <OfferCard />
+      <Modulecontainer />
+      <PrimaryFooter />
+      <Footerbutton />
     </div>
   );
 }
